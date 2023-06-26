@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseEachWord", "ReverseE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetCountOfEachCharacter", "GetCountOfEachCharacter\GetCountOfEachCharacter.csproj", "{C6F127D7-7545-44C3-8719-75BB0D4B14E8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{C531BE55-DF79-4E9D-B8A0-A3D98A38765F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{2C64BE79-495D-4FD5-AE49-13B2B1D7F701}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,10 @@ Global
 		{C6F127D7-7545-44C3-8719-75BB0D4B14E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6F127D7-7545-44C3-8719-75BB0D4B14E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6F127D7-7545-44C3-8719-75BB0D4B14E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C64BE79-495D-4FD5-AE49-13B2B1D7F701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C64BE79-495D-4FD5-AE49-13B2B1D7F701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C64BE79-495D-4FD5-AE49-13B2B1D7F701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C64BE79-495D-4FD5-AE49-13B2B1D7F701}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +61,7 @@ Global
 		{A6F87F79-116B-4230-A8B1-B47F4C4C9280} = {BED3734A-9F88-41F9-B655-EAAAD697E68C}
 		{A14C081F-08E7-4C86-BDEE-1A40F05304E5} = {BED3734A-9F88-41F9-B655-EAAAD697E68C}
 		{C6F127D7-7545-44C3-8719-75BB0D4B14E8} = {BED3734A-9F88-41F9-B655-EAAAD697E68C}
+		{2C64BE79-495D-4FD5-AE49-13B2B1D7F701} = {C531BE55-DF79-4E9D-B8A0-A3D98A38765F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C72467CC-5993-419D-8927-0A82E264D380}
